@@ -680,7 +680,7 @@
       <ul class="cart-items-list" id="cart-items"></ul>
       <div class="cart-empty" id="cart-empty">Your cart is currently empty.</div>
       <div class="cart-total" id="cart-total"></div>
-      <button class="cart-checkout-btn" onclick="alert('Checkout feature coming soon!')">Checkout</button>
+      <button class="cart-checkout-btn" id="checkoutBtn">Checkout</button>
     </section>
     <section id="testimonials">
       <div class="section-title-small">Customer Testimonials</div>
@@ -795,6 +795,12 @@
       }
     }
     renderCart();
+
+    // Checkout button redirects to order-summary.html
+    document.getElementById('checkoutBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = "order-summary.html";
+    });
   </script>
 </body>
 </html>
