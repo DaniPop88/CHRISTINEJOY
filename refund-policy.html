@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Refund Policy | ChristineJoy Style Studio</title>
+  <meta name="description" content="Information about our refund and return policy at ChristineJoy Style Studio.">
+  <link rel="icon" href="image/FAVICON.png" type="image/png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+  <style>
+    :root {
+      --main-bg: #b07a58;
+      --accent: #fffbe8;
+      --dark: #523d2c;
+      --cta: #e6b484;
+      --shadow: rgba(0,0,0,0.09);
+      --section-radius: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: var(--main-bg);
+      color: var(--accent);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: var(--main-bg);
+      width: 100%;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px var(--shadow);
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 0 1.5rem;
+      width: 100%;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.2rem 0;
+      gap: 1.2rem;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .nav-brand img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: var(--accent);
+    }
+    .nav-brand span {
+      font-weight: 700;
+      font-size: 1.45rem;
+      color: var(--accent);
+      letter-spacing: 1.5px;
+      line-height: 1.1;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.2rem;
+    }
+    .nav-links a {
+      color: var(--accent);
+      font-size: 1.01rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .2s;
+      padding: 0.2rem 0.8rem;
+      border-radius: 4px;
+      background: none;
+    }
+    .nav-links a:hover {
+      background: #d19c6a;
+      color: var(--main-bg);
+    }
+    main {
+      flex: 1;
+      width: 100%;
+      background: var(--main-bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .policy-section {
+      background: var(--accent);
+      color: var(--main-bg);
+      width: 100%;
+      max-width: 700px;
+      margin: 2.5rem auto;
+      border-radius: var(--section-radius);
+      box-shadow: 0 4px 24px var(--shadow);
+      padding: 2.2rem 1.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .policy-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--main-bg);
+      margin-bottom: 1rem;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .policy-content {
+      font-size: 1.11rem;
+      color: var(--dark);
+      text-align: left;
+      opacity: 0.96;
+      margin-bottom: 0;
+      line-height: 1.55;
+      width: 100%;
+      max-width: 630px;
+    }
+    .section-heading {
+      font-size: 1.15rem;
+      color: var(--main-bg);
+      font-weight: bold;
+      margin-top: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+    .policy-list {
+      margin-left: 1.2rem;
+      margin-bottom: 1.1rem;
+    }
+    @media (max-width: 700px) {
+      .container, .policy-section {
+        max-width: 98vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+      }
+    }
+    @media (max-width: 480px) {
+      .policy-title { font-size: 1.2rem; }
+      .policy-section { padding: 1rem 0.4rem;}
+      .navbar { padding: 0.7rem 0;}
+      .nav-brand img { width: 36px; height: 36px;}
+    }
+    footer {
+      background: #523d2c;
+      color: var(--accent);
+      text-align: center;
+      font-size: 1rem;
+      padding: 1.3rem 0 1.1rem 0;
+      margin-top: 3rem;
+      box-shadow: 0 -2px 8px var(--shadow);
+    }
+    .footer-links {
+      margin-top: 0.6rem;
+      display: flex;
+      gap: 1.4rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      color: var(--accent);
+      text-decoration: underline;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover {
+      color: var(--cta);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="nav-brand">
+          <img src="image/LOGO.png" alt="ChristineJoy Style Studio Logo" />
+          <span>CHRISTINEJOY STYLE STUDIO</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="refund-policy.html">Refund Policy</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="policy-section">
+      <div class="policy-title">Refund Policy</div>
+      <div class="policy-content">
+        At ChristineJoy Style Studio, we strive to ensure your complete satisfaction with every purchase and service. If something isn’t right, we’re here to help and make the process straightforward.<br><br>
+
+        <span class="section-heading">Return & Refund Guidelines</span>
+        <ul class="policy-list">
+          <li>Products from our Mini-Mart may be returned within 7 days of purchase with a valid receipt.</li>
+          <li>Returned items should be unopened, unused, and in their original packaging.</li>
+          <li>Refunds are processed to your original payment method once your return is approved.</li>
+          <li>Beauty and personal care services are non-refundable after they have been completed.</li>
+          <li>For quality concerns, please notify us within 24 hours of receiving a product or service.</li>
+        </ul>
+        <span class="section-heading">How To Request a Refund</span>
+        If you need to request a refund or return, please contact us as soon as possible. You can reach us by email at <a href="mailto:contact@christinejoy-studio.com" style="color:#b07a58;">contact@christinejoy-studio.com</a> or call <a href="tel:+639277301962" style="color:#b07a58;">+63 927 730 1962</a>. Provide your order details and reason for the request, and our team will guide you through the next steps.<br><br>
+
+        <span class="section-heading">Exceptions</span>
+        Certain items cannot be returned for hygiene reasons, such as opened cosmetics and personal care products. Customized packages and group bookings may have special terms; please review these at the time of purchase.<br><br>
+
+        <span class="section-heading">Processing Time</span>
+        Approved refunds are typically processed within 7 business days. You will receive confirmation once your refund has been completed.<br><br>
+
+        <span class="section-heading">We’re Here to Help</span>
+        Your satisfaction is important to us. If you have any questions about our refund policy or need assistance, please contact us by email or phone. We want every experience at ChristineJoy Style Studio to be positive and hassle-free.
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 CHRISTINEJOY STYLE STUDIO | #88 Mango Street, Brgy. San Miguel, San Pablo City, Laguna
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="refund-policy.html">Refund Policy</a>
+    </div>
+  </footer>
+</body>
+</html>
